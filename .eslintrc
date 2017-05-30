@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion": "6",
+    "sourceType": "module"
+  },
+  "rules": {
+    "comma-style": [ "warn", "first", { "exceptions": { "ArrayExpression": true, "ObjectExpression": true } } ],
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
+    "no-empty": "warn",
+    "no-unused-vars": [ "warn", { "vars": "all", "args": "all", "argsIgnorePattern": "^_$" } ],
+    "quote-props": [ "error", "as-needed", { "keywords": false, "numbers": true } ],
+    "quotes": [ "warn", "single" ],
+    "semi": [ "warn", "never" ]
+  }
+}

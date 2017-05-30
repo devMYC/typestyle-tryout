@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "charset": "utf8",
+    "jsx": "React",
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "pretty": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES5",
+    "types": [
+      "react",
+      "react-dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+
+  "include": [
+    "src/*.tsx",
+    "src/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist"
+  ]
+}
